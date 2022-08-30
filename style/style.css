@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+    font-size: 20px;
+}
+.timer{
+    display: inline-flex;
+    box-shadow: 7px 7px 7px 7px rgb(0 0 255 / 20%);
+}
+
+.field:not(:first-child){
+    margin-left: 1px;
+}
+.field{
+    padding: 30px;
+    background-color: #d3d3d3;
+}
